@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cargas en título</title>
+    <style>
+      *{
+        margin:0;
+        padding:0;
+      }
+      body{
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1rem;
+      }
+
+      ol{
+        margin-left:1.5rem;
+      }
+
+      ol li{
+        padding-top: .5rem;
+      }
+
+      ol div{
+        margin-left:-1.5rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        background: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+    <h1>Cargas en título</h1>
+    <select id="listado" onchange="cuestion(this.value);">
+      <option>Escoge…</option>
+    </select>
+    <ol id="resultados"></ol>
+  </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+          var datos;
+          var profes = [];
+          var profesAcotado;
+          const seleccion = document.querySelector("#listado");
+          const carga = document.querySelector("#resultados");
+            Papa.parse("https://raw.githubusercontent.com/profesorfaco/cargas/main/manual.csv", {
+                download: true,
+                header: true,
+                complete: function (results) {
+                    datos = results.data;
+                    console.log(datos);
+                    datos.forEach(d => profes.push(d.profe));
+                    console.log(profes);
+                    profesAcotado = sinRepetir(profes); 
+                    console.log(profesAcotado);
+                    profesAcotado.forEach(p => seleccion.innerHTML += `<option value="${p}">${p}</option>`);
+                },
+            });
+            function sinRepetir(arr) {
+              return arr.filter((item, index) => arr.indexOf(item) === index);
+            }
+            function cuestion(guia){
+              carga.innerHTML = '';
+              datos.forEach(g => {
+                if (g.profe == guia){
+                  if(g.estudiante != "-"){
+                    carga.innerHTML += `<li><strong>${g.estudiante}</strong> en ${g.nombre_curso}</li>`
+                  } else {
+                    carga.innerHTML += `<div>Sin guiaturas</div>` 
+                  }
+                }
+            })
+            }
+        </script>
+  </body>
+</html>
