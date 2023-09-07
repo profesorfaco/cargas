@@ -17,22 +17,38 @@
             }
 
             main {
-                width: min(80vw, 500px);
+                width: min(80vw, 560px);
                 padding: 1rem;
                 background: #fff;
                 box-shadow: 0 0 4px rgba(100, 100, 100, 0.1);            
                 border-radius: 0.8rem;
-                margin:10vh auto auto auto;
+                margin:8vh auto;
                 text-align: left;
             }
+
+            footer{
+                position: absolute;
+                bottom:0;
+                left:0;
+                width: 100%;
+                height: auto;
+                z-index: -1;
+                font-size:80%;
+                color:#999;
+                padding:.5rem 0;
+            }
+
+            footer a{color:#777;}
 
             select {
                 margin: 1rem 0;
                 padding:.25rem;
+                width: 100%;
             }
 
             h1 {
                 font-size: 1.2rem;
+                margin-top:1vh;
             }
 
             ol {
@@ -74,12 +90,8 @@
             <ol id="resultados"></ol>
             <div id="extra"></div>
         </main>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"
-            integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+        <footer>Desarrollado por <a href="https://faco.cl/" target="_blank">FACO</a></footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
             var datos;
             var profes = [];
