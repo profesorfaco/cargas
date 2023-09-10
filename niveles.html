@@ -8,7 +8,8 @@
     </head>
     <body>
         <main>
-            <h1>Proyecto de Título | Segundo semestre, 2023</h1>
+            <h1>Proyecto de Título</h1>
+            <h2>Segundo semestre, 2023</h2>
             <select id="listado" onchange="cuestion(this.value);">
                 <option>Seleccione nivel…</option>
             </select>
@@ -49,7 +50,7 @@
                 if (curso != "Seleccione nivel…") {
                     let horas = 0;
                     carga.innerHTML = "";
-                    carga.innerHTML = `<table><thead><tr><th>Nº</th><th>Estudiante</th><th>Profesor(a) Guía</th><th>Nivel</th></tr></thead><tbody id="aqui"></tbody></table>`;
+                    carga.innerHTML = `<table class="normal"><thead><tr><th>Nº</th><th>Estudiante</th><th>Profesor(a) Guía</th><th>Nivel</th></tr></thead><tbody id="aqui"></tbody></table>`;
                     let nro = 1;
                     datos.forEach((c) => {
                         if (c.nombre_curso == curso) {

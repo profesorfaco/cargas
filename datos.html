@@ -5,41 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Proyecto de Título | Segundo semestre, 2023</title>
         <link href="style.css" rel="stylesheet" />
-        <style>
-            th:nth-child(1),
-            td:nth-child(1) {
-                text-align: center;
-                width: 10%;
-            }
-
-            th:nth-child(3),
-            td:nth-child(3) {
-                width: 45%;
-            }
-
-            .last {
-                background: rgb(249, 249, 249);
-                font-weight: bold;
-            }
-        </style>
     </head>
     <body>
         <main>
-            <h1>Proyecto de Título | Segundo semestre, 2023</h1>
-            <p>Dato 1. La matrícula en quinto año <strong>supera</strong> las vacantes de primer año:</p>
+            <h1>Proyecto de Título</h1>
+            <h2>Segundo semestre, 2023</h2>
+            <p><em>Dato 1</em>. La matrícula activa en quinto año supera las vacantes de primer año:</p>
             <table>
+                <thead>
                 <tr>
-                    <th>Sem.</th>
-                    <th>PRIMER AÑO</th>
-                    <th>QUINTO AÑO</th>
+                    <th style="width:20%">Semestres</th>
+                    <th style="width:40%">PRIMER AÑO</th>
+                    <th style="width:40%">QUINTO AÑO</th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
-                    <td>1ro.</td>
+                    <td>Primero</td>
                     <td>65 estudiantes</td>
                     <td id="estudiantes1"></td>
                 </tr>
                 <tr>
-                    <td>2do.</td>
+                    <td>Segundo</td>
                     <td>55 estudiantes</td>
                     <td id="estudiantes2"></td>
                 </tr>
@@ -48,15 +35,20 @@
                     <td>120 estudiantes</td>
                     <td id="estudiantes3"></td>
                 </tr>
+            </tbody>
             </table>
-            <p>Dato 2. El número promedio de estudiantes por Profesor(a) Guía es cercano a <strong id="profesores"></strong>:</p>
+            <p><em>Dato 2</em>. El número promedio de estudiantes por Profesor(a) Guía es cercano a <span id="profesores"></span>; en la siguiente tabla se descatan casos que superan el promedio:</p>
             <table id="docentes">
                 <tr>
-                    <th>Nº</th>
                     <th>Profesor(a) Guía</th>
+                    <th>Estudiantes</th>
                 </tr>
             </table> 
-            <p>Dato 3. Según el reglamento y plan de estudios aprobado en el año 2018 (<a href="https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf" target="_blak">D.U. EXENTO N°0053924</a>), el proceso de titulación profesional corresponde al tercero de tres ciclos formativos, y tiene una duración de dos semestres (noveno y décimo); <strong>cada estudiante cuenta con cuatro semestres como límite para aprobar sus actividades curriculares del ciclo 3, incluido el Examen de Título</strong>.</p>           
+            <p><em>Dato 3</em>. Según el reglamento y plan de estudios aprobado en el año 2018 (<a href="https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf" target="_blak">D.U. EXENTO N°0053924</a>), el proceso de titulación profesional corresponde al tercero de tres ciclos formativos, y tiene una duración de dos semestres (noveno y décimo); cada estudiante cuenta con cuatro semestres como límite para aprobar sus actividades curriculares del ciclo 3, incluido el Examen de Título.</p>  
+            <p><em>Dato 4</em>. A partir del lunes 4 de septiembre de 2023, las labores de coordinación de 5º año de Diseño son responsabilidad del <a href="https://uchile.cl/portafolio-academico/academico/51470" target="_blank">Profesor Felipe Cortez</a>. Su e-mail: <a href="mailto:felipe.cortez@uchile.cl">felipe.cortez@uchile.cl</a></p>
+            <p><em>Dato 5</em>. Los contenidos en este documento se ajustan en función de ajustes en matrículas activas y asignaciones de guiaturas informados en <a href="https://ucampus.uchile.cl/" target="_blank">Ucampus</a></a>.
+            <p><em>Dato 6</em>. Más información respecto del proceso de titulación puede encontrarse en <a href="https://profesorfaco.github.io/diseno-uch/info.html" target="_blank">[PROTOTIPO] MEMORIAS DISEÑO UCH</a>.
+            </p>         
         </main>
         <footer>
             <div>
@@ -81,6 +73,7 @@
                 download: true,
                 header: true,
                 complete: function (results) {
+                    console.log(results);
                     datos = results.data;
                     datos.forEach((d) => {
                         if (d.nombre_curso == "Proyecto de Título I") {
@@ -101,10 +94,14 @@
                     docentesSinRepetir = [...new Set(profes)];
                     var todos = 0;
                     docentesSinRepetir.forEach(x => {
-                        docentes.innerHTML += `<tr><td>${conteo(x)}</td><td>${x}</td></tr>`;
+                        if(conteo(x) > (total/docentesSinRepetir.length)+1){
+                        docentes.innerHTML += `<tr class="destacada"><td>${x}</td><td>${conteo(x)}</td></tr>`;
+                        } else {
+                        docentes.innerHTML += `<tr><td>${x}</td><td>${conteo(x)}</td></tr>`;
+                        }
                         todos = todos + conteo(x);
                     })
-                    docentes.innerHTML += `<tr class="last"><td>${(total/docentesSinRepetir.length).toFixed(2)}</td><td>Promedio</td></tr>`
+                    docentes.innerHTML += `<tr class="last"><td>Promedio</td><td>${(total/docentesSinRepetir.length).toFixed(2)}</td></tr>`
                     document.querySelector("#profesores").innerHTML += `${(total/docentesSinRepetir.length).toFixed(0)}`;
                 }
             });

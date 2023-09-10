@@ -8,11 +8,12 @@
     </head>
     <body>
         <main>
-            <h1>Proyecto de Título | Segundo semestre, 2023</h1>
+            <h1>Proyecto de Título</h1>
+            <h2>Segundo semestre, 2023</h2>
             <select id="listado" onchange="cuestion(this.value);">
                 <option>Seleccione guía…</option>
             </select>
-            <ol id="resultados"></ol>
+            <div id="resultados"></div>
             <div id="extra"></div>
         </main>
         <footer>
@@ -47,17 +48,22 @@
                 if (guia != "Seleccione guía…") {
                     let horas = 0;
                     carga.innerHTML = "";
+                    carga.innerHTML = `<table class="normal"><thead><tr><th>Nº</th><th>Estudiante</th><th>Nivel</th><th>Profesor(a) Guía</th></tr></thead><tbody id="aqui"></tbody></table>`;
+                    let nro = 1;
+
                     datos.forEach((g) => {
                         if (g.profe == guia) {
                             if (g.estudiante != "-") {
-                                carga.innerHTML += `<li><strong>${g.estudiante}</strong> en ${g.nombre_curso}</li>`;
+                                document.querySelector("#aqui").innerHTML += `<tr><td>${nro}</td><td>${g.estudiante}</td><td>${g.nombre_curso}</td><td>${g.profe}</td></tr>`;
                                 if (g.nombre_curso == "Proyecto de Título I") {
                                     horas = horas + 1.5;
                                 } else {
                                     horas = horas + 1;
                                 }
+                                nro++;
                             } else {
-                                carga.innerHTML += `<div>Sin guiaturas</div>`;
+                            carga.innerHTML = "";
+                                carga.innerHTML += `<div id="none">Sin guiaturas</div>`;
                             }
                         }
                     });

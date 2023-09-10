@@ -4,14 +4,14 @@
 }
 body {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1rem;
+    font-size: .9rem;
     background: #eee;
     text-align: center;
 }
 
 main {
     width: min(80vw, 700px);
-    padding: 1rem;
+    padding: calc(1rem + 1.5vw);
     background: #fff;
     box-shadow: 0 0 4px rgba(100, 100, 100, 0.1);
     border-radius: 0.3rem;
@@ -26,7 +26,7 @@ footer {
     width: 100%;
     height: auto;
     z-index: -1;
-    font-size: 80%;
+    font-size: 90%;
     color: #999;
     padding: 1rem 0;
 }
@@ -50,8 +50,16 @@ select {
 }
 
 h1 {
-    font-size: 1.2rem;
+    font-size: calc(1rem + 1.5vw);
     margin-top: 1vh;
+    color:rgba(0,0,0,1);
+}
+
+h2 {
+    font-size: calc(1rem + 1vw);
+    margin-top: 1vh;
+    color:rgba(0,0,0,.6);
+    margin-bottom: 1rem;
 }
 
 p {
@@ -67,22 +75,14 @@ p > a:hover{
     color:#000;
 }
 
-ol {
-    margin-left: 1.5rem;
-    font-size: 0.9rem;
-}
 
-ol li {
-    padding-top: 0.5rem;
-    color: #888;
-}
-
-ol > div {
-    margin-left: -1.5rem;
-    padding: 0.6rem;
-    background: #eee;
-    color: #999;
-    border-radius: 0.2rem;
+div#none{
+    padding: 0.3rem 0.6rem;
+    color: #000;
+    font-size: 0.8rem;
+    background: #eee; 
+    border: 1px solid #666;
+    font-weight: bold;
 }
 
 div#extra {
@@ -100,7 +100,7 @@ div#extra:empty {
 table,
 th,
 td {
-    border: 1px solid;
+    border: 1px solid #666;
     font-size: 0.75rem;
 }
 
@@ -122,15 +122,41 @@ th{
     color:#222;
 }
 
-thead > tr > th:first-child,
-tbody > tr > td:first-child {
+table.normal > thead > tr > th:first-child,
+table.normal > tbody > tr > td:first-child {
     text-align: center;
 }
 
-thead > tr > th:nth-child(2) {
+table.normal > thead > tr > th:nth-child(2) {
     width: 40%;
 }
 
-thead > tr > th:nth-child(3) {
+table.normal > thead > tr > th:nth-child(3) {
     width: 35%;
+}
+
+table#docentes tr th:nth-child(1),
+table#docentes tr td:nth-child(1) {
+    text-align: left;
+}
+
+table#docentes tr th:nth-child(2),
+table#docentes tr td:nth-child(2) {
+    text-align: center;
+    width:15%;
+}
+
+.destacada{
+background: rgb(255,240,225);    
+}
+
+
+.last {
+background: rgb(249, 249, 249);
+font-weight: bold;
+}
+
+em{
+    font-style: normal;
+    font-weight: bold;
 }
