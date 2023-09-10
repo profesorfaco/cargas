@@ -55,13 +55,18 @@
                     datos.forEach((c) => {
                         if (c.nombre_curso == curso) {
                             if (c.estudiante != "-") {
-                                document.querySelector("#aqui").innerHTML += `<tr><td>${nro}</td><td>${c.estudiante}</td><td>${c.profe}</td><td>${c.nombre_curso}</td></tr>`;
-                                nro++;
+                                if(c.profe.includes("Profesor(a) Guía")){
+                                document.querySelector("#aqui").innerHTML += `<tr class="destacada"><td>${nro}</td><td>${c.estudiante}</td><td>${c.profe}</td><td>${c.nombre_curso}</td></tr>`;
+                            } else{
+                                document.querySelector("#aqui").innerHTML += `<tr><td>${nro}</td><td>${c.estudiante}</td><td>${c.profe}</td><td>${c.nombre_curso}</td></tr>`;                                
+                            }
+
                                 if (c.nombre_curso == "Proyecto de Título I") {
                                     horas = horas + 1.5;
                                 } else {
                                     horas = horas + 1;
                                 }
+                                nro++;
                             }
                         }
                     });
