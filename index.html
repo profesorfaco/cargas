@@ -18,7 +18,7 @@
         <footer>
             <div>
                 <a href="niveles.html">Seleccione nivel…</a>
-                <a href="totales.html">Datos</a>
+                <a href="datos.html">Datos</a>
                 <span>Desarrollado por <a href="https://faco.cl/" target="_blank">FACO</a></span>
             </div>
         </footer>
@@ -38,14 +38,11 @@
                     console.log(datos);
                     datos.forEach((d) => profes.push(d.profe));
                     console.log(profes);
-                    profesAcotado = sinRepetir(profes);
+                    profesAcotado = [...new Set(profes)];
                     console.log(profesAcotado);
                     profesAcotado.forEach((p) => (seleccion.innerHTML += `<option value="${p}">${p}</option>`));
-                },
+                }
             });
-            function sinRepetir(arr) {
-                return arr.filter((item, index) => arr.indexOf(item) === index);
-            }
             function cuestion(guia) {
                 if (guia != "Seleccione guía…") {
                     let horas = 0;

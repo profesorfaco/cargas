@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Proyecto de Título | Segundo semestre, 2023</title>
+        <link href="style.css" rel="stylesheet" />
+        <style>
+            th:nth-child(1),
+            td:nth-child(1) {
+                text-align: center;
+                width: 10%;
+            }
+
+            th:nth-child(3),
+            td:nth-child(3) {
+                width: 45%;
+            }
+
+            .last {
+                background: rgb(249, 249, 249);
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Proyecto de Título | Segundo semestre, 2023</h1>
+            <p>Dato 1. La matrícula en quinto año <strong>supera</strong> las vacantes de primer año:</p>
+            <table>
+                <tr>
+                    <th>Sem.</th>
+                    <th>PRIMER AÑO</th>
+                    <th>QUINTO AÑO</th>
+                </tr>
+                <tr>
+                    <td>1ro.</td>
+                    <td>65 estudiantes</td>
+                    <td id="estudiantes1"></td>
+                </tr>
+                <tr>
+                    <td>2do.</td>
+                    <td>55 estudiantes</td>
+                    <td id="estudiantes2"></td>
+                </tr>
+                <tr class="last">
+                    <td>Total</td>
+                    <td>120 estudiantes</td>
+                    <td id="estudiantes3"></td>
+                </tr>
+            </table>
+            <p>Dato 2. El número promedio de estudiantes por Profesor(a) Guía es cercano a <strong id="profesores"></strong>:</p>
+            <table id="docentes">
+                <tr>
+                    <th>Nº</th>
+                    <th>Profesor(a) Guía</th>
+                </tr>
+            </table> 
+            <p>Dato 3. Según el reglamento y plan de estudios aprobado en el año 2018 (<a href="https://fau.uchile.cl/dam/jcr:3f7b4e53-cea0-48fe-9f31-8e1991e21d29/Dise%EF%BF%BDo_v4.pdf" target="_blak">D.U. EXENTO N°0053924</a>), el proceso de titulación profesional corresponde al tercero de tres ciclos formativos, y tiene una duración de dos semestres (noveno y décimo); <strong>cada estudiante cuenta con cuatro semestres como límite para aprobar sus actividades curriculares del ciclo 3, incluido el Examen de Título</strong>.</p>           
+        </main>
+        <footer>
+            <div>
+                <a href="index.html">Seleccione guía…</a>
+                <a href="niveles.html">Seleccione nivel…</a>
+                <span>Desarrollado por <a href="https://faco.cl/" target="_blank">FACO</a></span>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            var parciales = {
+                tituloViejo: [],
+                tituloUno: [],
+                tituloDos: [],
+            };
+            var total;
+            var profes = [];
+            var docentesSinRepetir;
+            const docentes = document.querySelector("#docentes");
+
+            Papa.parse("https://raw.githubusercontent.com/profesorfaco/cargas/main/manual.csv", {
+                download: true,
+                header: true,
+                complete: function (results) {
+                    datos = results.data;
+                    datos.forEach((d) => {
+                        if (d.nombre_curso == "Proyecto de Título I") {
+                            parciales.tituloUno.push(d);
+                        }
+                        if (d.nombre_curso == "Proyecto de Título II") {
+                            parciales.tituloDos.push(d);
+                        }
+                        if (d.nombre_curso != "Proyecto de Título I" && d.nombre_curso != "Proyecto de Título II") {
+                            parciales.tituloViejo.push(d);
+                        }
+                        profes.push(d.profe);
+                    });
+                    total = parciales.tituloViejo.length + parciales.tituloUno.length + parciales.tituloDos.length;
+                    document.querySelector("#estudiantes1").innerHTML += `${parciales.tituloUno.length} estudiantes`;
+                    document.querySelector("#estudiantes2").innerHTML += `${parciales.tituloViejo.length + parciales.tituloDos.length} estudiantes`;
+                    document.querySelector("#estudiantes3").innerHTML += `${total} estudiantes`;
+                    docentesSinRepetir = [...new Set(profes)];
+                    var todos = 0;
+                    docentesSinRepetir.forEach(x => {
+                        docentes.innerHTML += `<tr><td>${conteo(x)}</td><td>${x}</td></tr>`;
+                        todos = todos + conteo(x);
+                    })
+                    docentes.innerHTML += `<tr class="last"><td>${(total/docentesSinRepetir.length).toFixed(2)}</td><td>Promedio</td></tr>`
+                    document.querySelector("#profesores").innerHTML += `${(total/docentesSinRepetir.length).toFixed(0)}`;
+                }
+            });
+            function conteo(x) {
+                let numero = 0;
+                datos.forEach(d => {
+                    if (d.profe == x && d.estudiante != "-") { 
+                        numero++;
+                    }
+                })
+                return numero;
+            }
+        </script>
+    </body>
+</html>
