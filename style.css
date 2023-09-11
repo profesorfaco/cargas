@@ -14,7 +14,7 @@ main {
     padding: calc(1rem + 1.5vw);
     background: #fff;
     box-shadow: 0 0 4px rgba(100, 100, 100, 0.1);
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
     margin: 6vh auto 9vh auto;
     text-align: left;
 }
@@ -58,13 +58,13 @@ h1 {
 h2 {
     font-size: calc(1rem + 1vw);
     margin-top: 1vh;
-    color:rgba(0,0,0,.6);
+    color:rgb(125,130,140);
     margin-bottom: 1rem;
 }
 
 p {
     margin: 1.4rem 0 0.7rem;
-    line-height: 1.3;
+    line-height: 1.38;
 }
 
 p > a{
@@ -118,7 +118,7 @@ th {
 
 
 th{
-    background:#eee;
+    background:rgb(245,246,248);
     color:#222;
 }
 
@@ -147,12 +147,12 @@ table#docentes tr td:nth-child(2) {
 }
 
 .destacada{
-background: rgb(255,240,225);    
+background: rgb(255,245,230);    
 }
 
 
 .last {
-background: rgb(249, 249, 249);
+background:rgb(250,251,253);
 font-weight: bold;
 }
 
