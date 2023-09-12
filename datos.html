@@ -94,13 +94,21 @@
                     document.querySelector("#estudiantes3").innerHTML += `${total} estudiantes`;
                     docentesSinRepetir = [...new Set(profes)];
                     var todos = 0;
+                    var filaTipo;
                     docentesSinRepetir.forEach(x => {
                         if(conteo(x) > (total/docentesSinRepetir.length)+1){
-                        docentes.innerHTML += `<tr class="destacada"><td>${x}</td><td>${conteo(x)}</td></tr>`;
+                            filaTipo = `<tr class="destacada">`;
+                        } else{
+                            filaTipo = `<tr>`;
+                        }
+                        if(x == "Cortez Orellana, Felipe Alberto" || x == "Castro Meza, Ricardo Andrés" || x == "Tapia Reyes, Mauricio Nicolás"){
+                        docentes.innerHTML += `<tr class="destacada"><td>${x}</td><td>${conteo(x)+6}</td></tr>`;
+
                         } else {
-                        docentes.innerHTML += `<tr><td>${x}</td><td>${conteo(x)}</td></tr>`;
+                        docentes.innerHTML += `${filaTipo}<td>${x}</td><td>${conteo(x)}</td></tr>`;
                         }
                         todos = todos + conteo(x);
+
                     })
                     docentes.innerHTML += `<tr class="last"><td>Promedio</td><td>${(total/docentesSinRepetir.length).toFixed(2)}</td></tr>`
                     document.querySelector("#profesores").innerHTML += `${(total/docentesSinRepetir.length).toFixed(0)}`;
