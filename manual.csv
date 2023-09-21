@@ -1,20 +1,20 @@
 nombre_curso,codigo_curso,seccion,profe,estudiante,rut,mail,a_mano
-Proyecto de Título (Malla vieja),DI801,1,* Sin Profesor(a) Guía,"Arangua Jiménez, Vicente Elías",19289534-0,vicentearangua@gmail.com,Industrial
-Proyecto de Título (Malla vieja),DI801,1,* Sin Profesor(a) Guía,"Aviles Riquelme, Guillermo Santiago",17509785-6,guillermo.aviles@ug.uchile.cl,Industrial
+Proyecto de Título II,AUD10I01,1,* Sin Profesor(a) Guía,"Albornoz Durán, Katalina Lucía",20243330-8,katalina.alb@gmail.com,
 Proyecto de Título (Malla vieja),DG801,1,* Sin Profesor(a) Guía,"Fuentes Jorquera, Ignacio Felipe",18461491-K,ignacio_fuentes@hotmail.cl,gráfiico
 Proyecto de Título (Malla vieja),DG801,1,* Sin Profesor(a) Guía,"Godoy Salgado, Alexander Erick",19003825-4,aegs17@gmail.com,gráfiico
-Proyecto de Título (Malla vieja),DI801,1,* Sin Profesor(a) Guía,"Jorquera Morales, Dariana Micaela Alejandra",19824686-7,dary2008@outlook.com,industrial
-Proyecto de Título I,AUD9V001,1,* Sin Profesor(a) Guía,"Lincopán Ramos, Fabián Martín",20448972-6,fabian.lincopan@ug.uchile.cl,* No responde en cuestionarios
-Proyecto de Título II,AUD10I01,1,* Sin Profesor(a) Guía,"Albornoz Durán, Katalina Lucía",20243330-8,katalina.alb@gmail.com,
 Proyecto de Título II,AUD10V01,1,* Sin Profesor(a) Guía,"Gonzalez Silva, Rahyza Constanza",19818234-6,rahyza.gonzalez@gmail.com,
 Proyecto de Título II,AUD10V01,1,* Sin Profesor(a) Guía,"Hernández Martí, Tomás Ignacio",19986232-4,tomas.hernandez.m@ug.uchile.cl,
+Proyecto de Título (Malla vieja),DI801,1,* Sin Profesor(a) Guía,"Jorquera Morales, Dariana Micaela Alejandra",19824686-7,dary2008@outlook.com,industrial
+Proyecto de Título I,AUD9V001,1,* Sin Profesor(a) Guía,"Lincopán Ramos, Fabián Martín",20448972-6,fabian.lincopan@ug.uchile.cl,* No responde en cuestionarios
 Proyecto de Título II,AUD10I01,1,* Sin Profesor(a) Guía,"Martin Parada, Manuel",19637479-5,mrtn.prd.mnl@gmail.com,
 Proyecto de Título II,AUD10V01,1,* Sin Profesor(a) Guía,"Martínez Pardo, Vicente Joaquín",19961402-9,vishort186@gmail.com,
 Proyecto de Título II,AUD10I01,1,* Sin Profesor(a) Guía,"Martinich Ercilla, Sofía Esperanza",20214515-9,sofia.martinich@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,1,* Sin Profesor(a) Guía,"Oliveros Berríos, Denisse Elizabeth",20401913-4,denisse.oliveros@ug.uchile.cl,
+Proyecto de Título (Malla vieja),DI801,1,* Taller Extraordinario de Titulación (TET),"Arangua Jiménez, Vicente Elías",19289534-0,vicentearangua@gmail.com,x
+Proyecto de Título (Malla vieja),DI801,1,* Taller Extraordinario de Titulación (TET),"Aviles Riquelme, Guillermo Santiago",17509785-6,guillermo.aviles@ug.uchile.cl,x
+Proyecto de Título II,AUD10V01,1,* Taller Extraordinario de Titulación (TET),"Badilla Gallardo, Jazmín Fernanda",19317209-1,jazmin.badilla@ug.uchile.cl,x
 Proyecto de Título (Malla vieja),DG801,1,* Taller Extraordinario de Titulación (TET),"Caceres Pradenas, Carolina Marcela ",19699285-5,caro.caceres.p@gmail.com,x
 Proyecto de Título (Malla vieja),DG801,1,* Taller Extraordinario de Titulación (TET),"Céspedes Montoya, Constanza Dominique ",19650086-3,constanza.cespedes@ug.uchile.cl,x
-Proyecto de Título II,AUD10V01,1,* Taller Extraordinario de Titulación (TET),"Badilla Gallardo, Jazmín Fernanda",19317209-1,jazmin.badilla@ug.uchile.cl,x
 Proyecto de Título I,AUD9V001,2,"Abud Carrillo, Jenny Beatriz","Ascencio Araneda, Antonia María-José",20729140-4,xntoniaasc@gmail.com,
 Proyecto de Título I,AUD9V001,2,"Abud Carrillo, Jenny Beatriz","Carrasco Barraza, Francisco Javier",19745448-2,franciscocarrasco1997@gmail.com,
 Proyecto de Título I,AUD9V001,2,"Abud Carrillo, Jenny Beatriz","Córdova Soto, Rocío Catalina",20382181-6,huntressofbooks@hotmail.com,
@@ -23,58 +23,56 @@ Proyecto de Título I,AUD9V001,2,"Abud Carrillo, Jenny Beatriz","Mansilla Aguile
 Proyecto de Título I,AUD9V001,2,"Abud Carrillo, Jenny Beatriz","Varas Kahler, Constanza Rocío",20665095-8,constanza.varas.k@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,5,"Basáez Villagrán, Christian Andrés",-,,,
 Proyecto de Título I,AUD9V001,4,"Calvo Ivanovic, Ingrid Estefanía del Pilar",-,,,
-Proyecto de Título (Malla vieja),DG801,5,"Castillo Espinoza, Eduardo Esteban","Yastremiz, Sofia",23319874-9,sofia.yastremiz@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,17,"Castillo Espinoza, Eduardo Esteban","Alarcón Riquelme, Fernanda Carolina",20282926-0,feralarcon4699@gmail.com,
 Proyecto de Título II,AUD10V01,17,"Castillo Espinoza, Eduardo Esteban","Ibáñez Durán, Catalina Belén",19961700-1,catalina.ibanez.d@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,17,"Castillo Espinoza, Eduardo Esteban","Menares Perez, Carolina Patricia",19756537-3,carolina.menares@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,17,"Castillo Espinoza, Eduardo Esteban","Núñez Aguirre, Valentina Alesandra",20358272-2,valenunez.aguirre@gmail.com,
 Proyecto de Título II,AUD10V01,17,"Castillo Espinoza, Eduardo Esteban","Palma Soto, Camila Lissette",19239424-4,lissette-12@outlook.com,
+Proyecto de Título (Malla vieja),DG801,5,"Castillo Espinoza, Eduardo Esteban","Yastremiz, Sofia",23319874-9,sofia.yastremiz@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,4,"Castro Meza, Ricardo Andrés",-,,,
-Proyecto de Título II,AUD10V01,1,"Cortez Orellana, Felipe Alberto","Rojas Henriquez, Alexia Gloria Mabel",19720738-8,alexia.rojas@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,10,"Cortez Orellana, Felipe Alberto","González Garrido, Camila Andrea",20289370-8,camila.gonzalez.11@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,3,"Cortez Orellana, Felipe Alberto","Oropesa Arce, Luciana",20162722-2,luciana.oropesa@ug.uchile.cl,
+Proyecto de Título II,AUD10V01,1,"Cortez Orellana, Felipe Alberto","Rojas Henriquez, Alexia Gloria Mabel",19720738-8,alexia.rojas@ug.uchile.cl,
 Proyecto de Título I,AUD9I001,5,"De la Sotta Lazzerini, Paola Margot","Bahamóndez Espino, Lara",19993473-2,larabahamondez@gmail.com,
-Proyecto de Título I,AUD9I001,1,"De la Sotta Lazzerini, Paola Margot","Uribe Sepulveda, Paula Sofia",19744058-9,p.uribe.sep@gmail.com,x
 Proyecto de Título II,AUD10I01,10,"De la Sotta Lazzerini, Paola Margot","Fuentes Villalobos, Javiera Paz",20429609-K,javifuentesvillalobos@gmail.com,
+Proyecto de Título I,AUD9I001,1,"De la Sotta Lazzerini, Paola Margot","Uribe Sepulveda, Paula Sofia",19744058-9,p.uribe.sep@gmail.com,x
+Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Ancavil Antognoni, Camila Andrea",20227459-5,c.ancavil.antog@gmail.com,
 Proyecto de Título (Malla vieja),DI801,1,"Domínguez González, Pablo Ernesto","Briones Serey, Néstor Ariel",17609447-8,nestor.briones@ug.uchile.cl,x
 Proyecto de Título (Malla vieja),DI801,3,"Domínguez González, Pablo Ernesto","Caroca González, Valentina Ignacia",19421301-8,valeencaroca@gmail.com,
-Proyecto de Título (Malla vieja),DI801,3,"Domínguez González, Pablo Ernesto","Higuera Cabello, Felipe Ignacio",18338216-0,felipehiguera@outlook.cl,
-Proyecto de Título (Malla vieja),DI801,3,"Domínguez González, Pablo Ernesto","Osorio Morales, Camila Angélica Francisca",19588773-K,camila.osorio.m@ug.uchile.cl,
-Proyecto de Título (Malla vieja),DI801,1,"Domínguez González, Pablo Ernesto","Rojas Ramirez, Rocio Anais",18396778-9,rocioanaisrr@gmail.com,x
-Proyecto de Título (Malla vieja),DI801,3,"Domínguez González, Pablo Ernesto","Santibañez Martínez, Andrea Isabel",19175349-6,andrea.santibanez@ug.uchile.cl,
-Proyecto de Título (Malla vieja),DG801,4,"Domínguez González, Pablo Ernesto","Silva Bea, Camila Constanza ",19514238-6,camilaconstanza.cs16@gmail.com,
 Proyecto de Título I,AUD9I001,3,"Domínguez González, Pablo Ernesto","Castello Alvial, Chiara Valentina ",19997300-2,castelloc33@gmail.com,
-Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Ancavil Antognoni, Camila Andrea",20227459-5,c.ancavil.antog@gmail.com,
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Castro Sepúlveda, Francisca Javiera",19859459-8,francastrosepu2@gmail.com,
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Figueroa Aedo, María Paz",20618630-5,maria.figueroa.a@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Guerrero Sandoval, Carolina Andrea",19688745-8,carolina.karolina.guerrero@gmail.com,
+Proyecto de Título (Malla vieja),DI801,3,"Domínguez González, Pablo Ernesto","Higuera Cabello, Felipe Ignacio",18338216-0,felipehiguera@outlook.cl,
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Labbe Aguilar, Valentina Lareen",18538584-1,valentina.labbe@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Muñoz Sepulveda, Antonia Carolina",19690051-9,antonia.munoz@ug.uchile.cl,
+Proyecto de Título (Malla vieja),DI801,3,"Domínguez González, Pablo Ernesto","Osorio Morales, Camila Angélica Francisca",19588773-K,camila.osorio.m@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Pizarro Pizarro, Fernanda Antonia",19979680-1,ferpizarrop@gmail.com,
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Riveros Oltra, Javiera Paz",20464936-7,riveros.oltra@gmail.com,
+Proyecto de Título (Malla vieja),DI801,1,"Domínguez González, Pablo Ernesto","Rojas Ramirez, Rocio Anais",18396778-9,rocioanaisrr@gmail.com,x
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Salvatierra Jermany, Yelisa Belén",19911048-9,yelisa.salvatierra@ug.uchile.cl,
+Proyecto de Título (Malla vieja),DI801,3,"Domínguez González, Pablo Ernesto","Santibañez Martínez, Andrea Isabel",19175349-6,andrea.santibanez@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Sepúlveda Díaz, María Catalina",20285681-0,sepulvedacata2@gmail.com,
-Proyecto de Título I,AUD9I001,10,"Donoso Cisternas, Sergio Felipe","San Martín Matamala, Carla Fernanda",20230672-1,carla.sanmartin.m@ug.uchile.cl,x
+Proyecto de Título (Malla vieja),DG801,4,"Domínguez González, Pablo Ernesto","Silva Bea, Camila Constanza ",19514238-6,camilaconstanza.cs16@gmail.com,
 Proyecto de Título II,AUD10I01,14,"Donoso Cisternas, Sergio Felipe","Castillo Sierra, Roberto Ignacio",20100657-0,rcastillosierra123@gmail.com,
 Proyecto de Título II,AUD10I01,14,"Donoso Cisternas, Sergio Felipe","Fernández Brevis, Jeremy Ahysen",20410016-0,jeremy.fernandez@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,14,"Donoso Cisternas, Sergio Felipe","Salazar Morales, Gustavo Adrián",20237014-4,gustavo.salazar.m@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,14,"Donoso Cisternas, Sergio Felipe","Salinas Hernandez, Mauricio Leonardo",20342590-2,mauricio.salinas@ug.uchile.cl,
+Proyecto de Título I,AUD9I001,10,"Donoso Cisternas, Sergio Felipe","San Martín Matamala, Carla Fernanda",20230672-1,carla.sanmartin.m@ug.uchile.cl,x
 Proyecto de Título II,AUD10I01,14,"Donoso Cisternas, Sergio Felipe","Silva Herrera, Michelle Alexandra",19744811-3,michelle161997@live.cl,
 Proyecto de Título I,AUD9V001,5,"Dueñas Santander, Rodrigo Alejandro","Garib González, Gabriela Paz",20662652-6,gabygarib@yahoo.es,
 Proyecto de Título I,AUD9V001,5,"Dueñas Santander, Rodrigo Alejandro","Ponce Zúñiga, Bárbara Nicol",19030742-5,barbara.ponce@ug.uchile.cl,
 Proyecto de Título I,AUD9V001,5,"Dueñas Santander, Rodrigo Alejandro","Sánchez Román, Matías Jan",19957612-7,matias.sanchez.r@ug.uchile.cl,
-Proyecto de Título I,AUD9V001,9,"Gatica Ramirez, Pamela Petruska","Muñoz Méndez, Margarita Paz",19219601-9,margaritapaaz@gmail.com,
 Proyecto de Título II,AUD10V01,2,"Gatica Ramirez, Pamela Petruska","Aguilera Muñoz, Isidora Jesús",20300413-3,iaguilerajm@gmail.com,
 Proyecto de Título II,AUD10V01,2,"Gatica Ramirez, Pamela Petruska","Castro Caroca, Susan Nicole",20472821-6,susan.castro21@gmail.com,
 Proyecto de Título II,AUD10V01,2,"Gatica Ramirez, Pamela Petruska","Figueroa Garrido, Danae",20573668-9,danaefigueroagarrido@gmail.com,
 Proyecto de Título II,AUD10V01,2,"Gatica Ramirez, Pamela Petruska","Figueroa Núñez, Catalina Antonia",20415614-K,catxfgr1106@gmail.com,
 Proyecto de Título II,AUD10V01,2,"Gatica Ramirez, Pamela Petruska","Morales Guzman, Macarena Paz",17671247-3,moralesguzmanm@gmail.com,
+Proyecto de Título I,AUD9V001,9,"Gatica Ramirez, Pamela Petruska","Muñoz Méndez, Margarita Paz",19219601-9,margaritapaaz@gmail.com,
 Proyecto de Título II,AUD10V01,1,"Gatica Ramirez, Pamela Petruska","Tapia Rodríguez, Paulina Andrea",19820411-0,pauli.tapia08@gmail.com,x
 Proyecto de Título II,AUD10V01,15,"Gómez Moya, Cristián Manuel","Quiroz Valdés, Cristina Esperanza",20071190-4,cristina.quiroz@ug.uchile.cl,
-Proyecto de Título (Malla vieja),DI801,1,"Jacob Dazarola, Rubén Hernán","Staub Ramos, Nevin Aurelio",19202757-8,nevinstaubramos@gmail.com,"Sí, está con Rubén (pero no se ha conectado desde Portugal)"
-Proyecto de Título I,AUD9I001,2,"Jacob Dazarola, Rubén Hernán","Briones Márquez, Freddy Alan",18768691-1,freddybrionest@hotmail.com,
-Proyecto de Título I,AUD9I001,2,"Jacob Dazarola, Rubén Hernán","Ramírez Ávila, Antonia Belén",20568279-1,antonia.ramirez.a@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,12,"Jacob Dazarola, Rubén Hernán","Acosta Rubilar, Isidora Paz",19688109-3,isidora.acosta@ug.uchile.cl,
+Proyecto de Título I,AUD9I001,2,"Jacob Dazarola, Rubén Hernán","Briones Márquez, Freddy Alan",18768691-1,freddybrionest@hotmail.com,
 Proyecto de Título II,AUD10I01,1,"Jacob Dazarola, Rubén Hernán","Catalan Acuña, Javiera Andrea",19672747-7,javiieracatalan@gmail.com,x
 Proyecto de Título II,AUD10I01,12,"Jacob Dazarola, Rubén Hernán","Córdova Alañanco, Valentina Javiera Beatriz",20221026-0,valentina.cordova1999@gmail.com,
 Proyecto de Título II,AUD10I01,12,"Jacob Dazarola, Rubén Hernán","Fuentes Rivas, Tania Francisca",20109580-8,tania.fuentes@ug.uchile.cl,
@@ -82,7 +80,9 @@ Proyecto de Título II,AUD10I01,12,"Jacob Dazarola, Rubén Hernán","Godoy Fuste
 Proyecto de Título II,AUD10I01,12,"Jacob Dazarola, Rubén Hernán","Haddad Casamayor, Andrea Victoria",20589931-6,andrehaca@gmail.com,
 Proyecto de Título II,AUD10I01,1,"Jacob Dazarola, Rubén Hernán","Lara Marin, Fernanda Paz",19361824-3,fernanda.lara.marin@gmail.com,x
 Proyecto de Título II,AUD10I01,12,"Jacob Dazarola, Rubén Hernán","Novoa Crespo, Felipe Matías Javier",20447288-2,felipe.novoa.c@ug.uchile.cl,
+Proyecto de Título I,AUD9I001,2,"Jacob Dazarola, Rubén Hernán","Ramírez Ávila, Antonia Belén",20568279-1,antonia.ramirez.a@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,12,"Jacob Dazarola, Rubén Hernán","Rojas García, Alen Fabián",19014210-8,alen.rojas.g@gmail.com,
+Proyecto de Título (Malla vieja),DI801,1,"Jacob Dazarola, Rubén Hernán","Staub Ramos, Nevin Aurelio",19202757-8,nevinstaubramos@gmail.com,"Sí, está con Rubén (pero no se ha conectado desde Portugal)"
 Proyecto de Título II,AUD10I01,12,"Jacob Dazarola, Rubén Hernán","Torres Pino, María José",19840296-6,maria.torres.p@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,6,"Lares López, Lorna Lucila","Cáceres Inda, Sofía Isadora",20725449-5,sofia.caceres.i@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,6,"Lares López, Lorna Lucila","Mandujano González, Pierina Arlette Teresa",20159330-1,pierina.mandujano@ug.uchile.cl,
@@ -94,39 +94,39 @@ Proyecto de Título II,AUD10I01,13,"Lepe Muñoz, Juan Carlos","Leiva Aravena, F�
 Proyecto de Título II,AUD10I01,13,"Lepe Muñoz, Juan Carlos","Rojas Parada, Camila Graciela",20062607-9,camila.r.p9809@gmail.com,
 Proyecto de Título I,AUD9I001,6,"Maldonado De la Fuente, Felix Daniel","Aliaga Martínez, Matías Rodrigo",18938003-8,malwar4@gmail.com,
 Proyecto de Título I,AUD9I001,1,"Maldonado De la Fuente, Felix Daniel","Alvear Irribarra, Antonia Amanda",20677382-0,antonia.alvear.i@ug.uchile.cl,Cambia a Felix Maldonado
-Proyecto de Título I,AUD9I001,1,"Maldonado De la Fuente, Felix Daniel","Muñoz Tapia, Rodrigo Allan Geoff",19602121-3,rodrigo.munoz.t@ug.uchile.cl,Cambia a Felix Maldonado
 Proyecto de Título II,AUD10V01,9,"Maldonado De la Fuente, Felix Daniel","Cortés Vidal, Jimena Aurora",18845626-K,anemij.setroc@gmail.com,
 Proyecto de Título II,AUD10I01,7,"Maldonado De la Fuente, Felix Daniel","Del Fierro Carvallo, Ariel Salvador",20062321-5,ariel.delfierro@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,9,"Maldonado De la Fuente, Felix Daniel","Jiménez Aguirre, Manuel Ignacio",19611851-9,ignacio.hihi@gmail.com,
-Proyecto de Título (Malla vieja),DI801,4,"Méndez Olivares, Iván Alberto","Mena Carvacho, Natalia Belén",18457715-1,nmenac@ug.uchile.cl,
+Proyecto de Título I,AUD9I001,1,"Maldonado De la Fuente, Felix Daniel","Muñoz Tapia, Rodrigo Allan Geoff",19602121-3,rodrigo.munoz.t@ug.uchile.cl,Cambia a Felix Maldonado
 Proyecto de Título I,AUD9V001,1,"Méndez Olivares, Iván Alberto","Kobayashi Bravo, Hisashi Francisco",20768077-K,hisashikobayashibravo@gmail.com,x
+Proyecto de Título (Malla vieja),DI801,4,"Méndez Olivares, Iván Alberto","Mena Carvacho, Natalia Belén",18457715-1,nmenac@ug.uchile.cl,
 Proyecto de Título I,AUD9V001,1,"Morales Morgado, Héctor Freddy","Pinto Fuentes, Benjamín Elías",20298636-6,benja_109@hotmail.es,x
 Proyecto de Título I,AUD9V001,1,"Morales Mujica, María Paz","Flores Mora, Valentina Fernanda",20732180-K,valentina.flores.m@ug.uchile.cl,* Era otra Valentina Flores
 Proyecto de Título I,AUD9V001,1,"Morales Mujica, María Paz","González Abarca, Jade Deixa",19991648-3,yosias.gonzalez@ug.uchile.cl,x
 Proyecto de Título II,AUD10V01,11,"Morales Mujica, María Paz","Guzmán González, Paulina Alejandra",20109891-2,paulina.guzman@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,11,"Morales Mujica, María Paz","Silva Ñanculeo, Javiera Milaray",20627276-7,javiera.silva.n@ug.uchile.cl,
+Proyecto de Título II,AUD10I01,5,"Nuñez Gutiérrez, Pablo Andrés","Aguilera Venegas, Paz Javiera",20288112-2,pachiivevo@gmail.com,
 Proyecto de Título I,AUD9V001,7,"Nuñez Gutiérrez, Pablo Andrés","Celpa Bugueño, Fernanda Valentina",20289180-2,fernanda.cb00@gmail.com,
 Proyecto de Título I,AUD9I001,7,"Nuñez Gutiérrez, Pablo Andrés","Lagos Matus, Francisca Antonia",20495930-7,francisca.lagos.m@ug.uchile.cl,
 Proyecto de Título I,AUD9I001,7,"Nuñez Gutiérrez, Pablo Andrés","Leal Sanhueza, Antonia Agustina",20430381-9,antonia.leal@ug.uchile.cl,
-Proyecto de Título II,AUD10I01,5,"Nuñez Gutiérrez, Pablo Andrés","Aguilera Venegas, Paz Javiera",20288112-2,pachiivevo@gmail.com,
+Proyecto de Título II,AUD10V01,14,"Ode Saleh, María Verónica","Almarcegui Caceres, Josefa Valentina",20200857-7,josefa.almarcegui@ug.uchile.cl,
 Proyecto de Título (Malla vieja),DG801,1,"Ode Saleh, María Verónica","Calbul Muñoz, Catalina De los Angeles",19705014-4,catalinacalbul@live.cl,x
+Proyecto de Título II,AUD10V01,14,"Ode Saleh, María Verónica","Moncada González, Bastián Andrés",20118202-6,bastian.moncada0112@gmail.com,
 Proyecto de Título I,AUD9V001,6,"Ode Saleh, María Verónica","Rivera Alcázar, Catalina Angélica",20325927-1,catalina.rivera@ug.uchile.cl,
 Proyecto de Título I,AUD9V001,6,"Ode Saleh, María Verónica","Rojas Muñoz, Constanza Antonia",19956353-K,constanza.rojas.1@ug.uchile.cl,
 Proyecto de Título I,AUD9V001,1,"Ode Saleh, María Verónica","Smith Sanguinetti, Kai Andreu",19672959-3,kaison@live.com,x
-Proyecto de Título II,AUD10V01,14,"Ode Saleh, María Verónica","Almarcegui Caceres, Josefa Valentina",20200857-7,josefa.almarcegui@ug.uchile.cl,
-Proyecto de Título II,AUD10V01,14,"Ode Saleh, María Verónica","Moncada González, Bastián Andrés",20118202-6,bastian.moncada0112@gmail.com,
 Proyecto de Título II,AUD10V01,14,"Ode Saleh, María Verónica","Soto Frías, Santiago Ignacio",19236528-7,santiago.soto@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,14,"Ode Saleh, María Verónica","Torres Cabello, Analia Salomé",20678190-4,analia.torres@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,14,"Ode Saleh, María Verónica","Ugarte Bastidas, Diego Arturo",20492195-4,diego2.ugarte@gmail.com,
 Proyecto de Título II,AUD10V01,14,"Ode Saleh, María Verónica","Urrea Vera, Romina Andrea",19733012-0,romina.urrea@ug.uchile.cl,
-Proyecto de Título (Malla vieja),DG801,3,"Osses Flores, Roberto Eduardo","Chocobar Ibacache, Camila Fernanda",18141583-5,camila.chocobar.i@gmail.com,
-Proyecto de Título I,AUD9V001,1,"Osses Flores, Roberto Eduardo","Moena Canales, Melany Valentina",19905341-8,melany.moena@ug.uchile.cl,x
 Proyecto de Título II,AUD10V01,7,"Osses Flores, Roberto Eduardo","Berríos Jofré, Raúl Gabriel",20472224-2,raul.berrios@ug.uchile.cl,
+Proyecto de Título (Malla vieja),DG801,3,"Osses Flores, Roberto Eduardo","Chocobar Ibacache, Camila Fernanda",18141583-5,camila.chocobar.i@gmail.com,
 Proyecto de Título II,AUD10V01,7,"Osses Flores, Roberto Eduardo","González Santibáñez, Almendra Catalina",20459455-4,almendra.gonzalez.s@gmail.com,
+Proyecto de Título I,AUD9V001,1,"Osses Flores, Roberto Eduardo","Moena Canales, Melany Valentina",19905341-8,melany.moena@ug.uchile.cl,x
 Proyecto de Título II,AUD10V01,7,"Osses Flores, Roberto Eduardo","Vargas Figueroa, Catalina Romina",20284526-6,crvargasf@gmail.com,
+Proyecto de Título II,AUD10V01,8,"Pagueguy Fenner, Bernardo Sebastián","Chong González, Francisca Paz",20619790-0,francisca.chong@ug.uchile.cl,
 Proyecto de Título I,AUD9V001,8,"Pagueguy Fenner, Bernardo Sebastián","Escobar Hernandez, Martin Emilio",19419199-5,martinescobarhernandez.97@gmail.com,x
 Proyecto de Título I,AUD9V001,8,"Pagueguy Fenner, Bernardo Sebastián","Flores Echevarría, Valentina Soledad",19057174-2,v.flaguers@gmail.com,
-Proyecto de Título II,AUD10V01,8,"Pagueguy Fenner, Bernardo Sebastián","Chong González, Francisca Paz",20619790-0,francisca.chong@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,8,"Pagueguy Fenner, Bernardo Sebastián","Núñez Ballesteros, Valentina Esperanza",20603435-1,valentina.nunez.1@ug.uchile.cl,
 Proyecto de Título II,AUD10V01,8,"Pagueguy Fenner, Bernardo Sebastián","Palma Soto, Constanza Nicole",19239423-6,cnps95@outlook.com,
 Proyecto de Título II,AUD10V01,8,"Pagueguy Fenner, Bernardo Sebastián","Quero Lopez, Ana Karina",26200623-9,anakquerol@gmail.com,
@@ -143,43 +143,43 @@ Proyecto de Título I,AUD9V001,1,"Reyes León, Daniel Antonio ","Vergara Vergara
 Proyecto de Título II,AUD10I01,11,"Ruiz Balart, Macarena Marcela","González Alarcón, Nicolás Matías",20283286-5,nicolas.gonzalez.5@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,11,"Ruiz Balart, Macarena Marcela","Ponce Montevilla, Gabriela Rayen",20415066-4,gabriela.ponce@ug.uchile.cl,
 Proyecto de Título (Malla vieja),DG801,1,"Soto Calquin, Leonardo Esteban","Campillo Febre, Javiera Aglae",19720841-4,funkijavi@hotmail.com,x
-Proyecto de Título (Malla vieja),DG801,6,"Soto Calquin, Leonardo Esteban","Espinoza Miranda, Valentina Elizabeth",19264794-0,v.espinoza.1@ug.uchile.cl,x
-Proyecto de Título (Malla vieja),DG801,1,"Soto Calquin, Leonardo Esteban","Reinoso Badillo, Aracely Paz Leonor",19340932-6,aracely.reinoso@ug.uchile.cl,x
-Proyecto de Título (Malla vieja),DG801,1,"Soto Calquin, Leonardo Esteban","Reyes García, Deianira Javiera",19839087-9,deianira.reyes@ug.uchile.cl,x
+Proyecto de Título II,AUD10V01,,"Soto Calquin, Leonardo Esteban","Claro Ibáñez, Ximena Paz",19958177-5,xxvvyyz@gmail.com,x
 Proyecto de Título I,AUD9V001,10,"Soto Calquin, Leonardo Esteban","Contreras Fuentes, Maria Jose",19158115-6,cote_2010@hotmail.cl,
 Proyecto de Título I,AUD9V001,10,"Soto Calquin, Leonardo Esteban","De Lapeyra Rojas, Rodolfo Elías",20465866-8,rodolfo.delapeyra@ug.uchile.cl,
-Proyecto de Título II,AUD10V01,,"Soto Calquin, Leonardo Esteban","Claro Ibáñez, Ximena Paz",19958177-5,xxvvyyz@gmail.com,x
+Proyecto de Título (Malla vieja),DG801,6,"Soto Calquin, Leonardo Esteban","Espinoza Miranda, Valentina Elizabeth",19264794-0,v.espinoza.1@ug.uchile.cl,x
 Proyecto de Título II,AUD10V01,1,"Soto Calquin, Leonardo Esteban","Leal Núñez, Daniela Soledad",20219362-5,daniela.leal@ug.uchile.cl,x
+Proyecto de Título (Malla vieja),DG801,1,"Soto Calquin, Leonardo Esteban","Reinoso Badillo, Aracely Paz Leonor",19340932-6,aracely.reinoso@ug.uchile.cl,x
+Proyecto de Título (Malla vieja),DG801,1,"Soto Calquin, Leonardo Esteban","Reyes García, Deianira Javiera",19839087-9,deianira.reyes@ug.uchile.cl,x
 Proyecto de Título II,AUD10V01,1,"Soto Calquin, Leonardo Esteban","Sepulveda Bravo, Barbara Andrea",19838203-5,b.sepu.b@gmail.com,x
 Proyecto de Título II,AUD10V01,19,"Soto Calquin, Leonardo Esteban","Tellez Riveros, Nicolás Ignacio",18172367-K,nico.tellez.riveros@gmail.com,x
 Proyecto de Título II,AUD10V01,1,"Soto Calquin, Leonardo Esteban","Zamorano Vivanco, Aline Belén",19545753-0,crazinessislikeheaven@hotmail.com,x
 Proyecto de Título (Malla vieja),DG801,1,"Stange Marcus, Hans Eduardo","Delaigue Carrasco, Dominique Camila",19221850-0,mishu.delaigue@gmail.com,x
 Proyecto de Título (Malla vieja),DG801,1,"Stange Marcus, Hans Eduardo","Jara Cuevas, Camila Ivonne",19183472-0,camilaivonne95@gmail.com,x
 Proyecto de Título (Malla vieja),DG801,1,"Stange Marcus, Hans Eduardo","Magna Gutiérrez, Ruth María",18693569-1,ruth.gutierrez@ug.uchile.cl,x
-Proyecto de Título (Malla vieja),DG801,1,"Stange Marcus, Hans Eduardo","Miranda Schleyer, Trinidad",18065501-8,trinidad.miranda@ug.uchile.cl,x
 Proyecto de Título II,AUD10V01,13,"Stange Marcus, Hans Eduardo","Meneses Espejo, Gastón Iván",19794111-1,gaston.meneses@ug.uchile.cl,x
+Proyecto de Título (Malla vieja),DG801,1,"Stange Marcus, Hans Eduardo","Miranda Schleyer, Trinidad",18065501-8,trinidad.miranda@ug.uchile.cl,x
 Proyecto de Título II,AUD10V01,1,"Stange Marcus, Hans Eduardo","Torrejón Gamboa, Daniela Valentina",19904391-9,daniela.torrejon@ug.uchile.cl,x
-Proyecto de Título (Malla vieja),DI801,6,"Tapia Reyes, Mauricio Nicolás","Saavedra Rojas, Javiera Katalina",19696098-8,jk.sr1997@gmail.com,
 Proyecto de Título I,AUD9I001,9,"Tapia Reyes, Mauricio Nicolás","Grass Bañados, José Santiago",20297154-7,jose.grass.b@gmail.com,
 Proyecto de Título II,AUD10I01,2,"Tapia Reyes, Mauricio Nicolás","Muñoz Espinosa, Francisco Ignacio",19037163-8,francisco.muespinosa@gmail.com,
+Proyecto de Título (Malla vieja),DI801,6,"Tapia Reyes, Mauricio Nicolás","Saavedra Rojas, Javiera Katalina",19696098-8,jk.sr1997@gmail.com,
 Proyecto de Título I,AUD9V001,11,"Vico Sánchez, Mauricio Esteban","Ortiz Rubio, Araceli Marcela",19951520-9,araceli911@gmail.com,
-Proyecto de Título (Malla vieja),DI801,5,"Wechsler Pizarro, Andrea","Muñoz Concha, Francisca Macarena",19523561-9,fllancisca@hotmail.com,
-Proyecto de Título (Malla vieja),DI801,1,"Wechsler Pizarro, Andrea","Vergara Osorio, Michelle Alejandra",19355707-4,michelle.vergara@ug.uchile.cl,x
 Proyecto de Título I,AUD9V001,1,"Wechsler Pizarro, Andrea","Cabrera López, Francisco Daniel",19523067-6,fco.4.cabrera@gmail.com,x
+Proyecto de Título II,AUD10I01,1,"Wechsler Pizarro, Andrea","Castro Rojas, Karen Valentina",20033271-7,karen.v.castrojas@gmail.com,x
 Proyecto de Título I,AUD9I001,1,"Wechsler Pizarro, Andrea","Coloma Olivares, Beatriz Gabriela",20314992-1,beatriz.coloma@ug.uchile.cl,x
 Proyecto de Título I,AUD9I001,4,"Wechsler Pizarro, Andrea","Contreras Flores, Amanda Paz",20468083-3,acontref@gmail.com,
-Proyecto de Título I,AUD9I001,1,"Wechsler Pizarro, Andrea","Uribe Galdamez, Vania Andrea",19514217-3,vania.uribe.g@gmail.com,x
-Proyecto de Título II,AUD10I01,1,"Wechsler Pizarro, Andrea","Castro Rojas, Karen Valentina",20033271-7,karen.v.castrojas@gmail.com,x
 Proyecto de Título II,AUD10I01,9,"Wechsler Pizarro, Andrea","Flores Del Rio, Camila Fernanda",18023438-1,camila.flores.d@ug.uchile.cl,
 Proyecto de Título II,AUD10I01,1,"Wechsler Pizarro, Andrea","Gutiérrez Sotomayor, David Felipe",20129689-7,gutierrezsotomayordavid@gmail.com,x
 Proyecto de Título II,AUD10I01,9,"Wechsler Pizarro, Andrea","Morales Miqueles, María Esperanza",19963790-8,esperanzamiqueles@gmail.com,
 Proyecto de Título II,AUD10I01,9,"Wechsler Pizarro, Andrea","Moya Ruminao, José Patricio",20242788-K,jose.moya.r@ug.uchile.cl,
+Proyecto de Título (Malla vieja),DI801,5,"Wechsler Pizarro, Andrea","Muñoz Concha, Francisca Macarena",19523561-9,fllancisca@hotmail.com,
 Proyecto de Título II,AUD10I01,1,"Wechsler Pizarro, Andrea","Pérez Meza, Micaela Andrea",20288911-5,micaela.perez@ug.uchile.cl,x
 Proyecto de Título II,AUD10I01,1,"Wechsler Pizarro, Andrea","Silva Carrasco, Natalia Lourdes",20108832-1,nlourdes.sc@gmail.com,x
+Proyecto de Título I,AUD9I001,1,"Wechsler Pizarro, Andrea","Uribe Galdamez, Vania Andrea",19514217-3,vania.uribe.g@gmail.com,x
+Proyecto de Título (Malla vieja),DI801,1,"Wechsler Pizarro, Andrea","Vergara Osorio, Michelle Alejandra",19355707-4,michelle.vergara@ug.uchile.cl,x
+Proyecto de Título II,AUD10V01,6,"Young Araya, Mariana Inés","Arancibia Pérez, Paz Belén",20726548-9,paz.arancibia@ug.uchile.cl,
 Proyecto de Título I,AUD9V001,1,"Young Araya, Mariana Inés","Bilbao Pino, Bárbara Paz",20388127-4,barbara.bilbao@ug.uchile.cl,x
 Proyecto de Título I,AUD9V001,12,"Young Araya, Mariana Inés","Cabezas Méndez, Constanza Alexandra",20289185-3,constanza.cabezas.m@ug.uchile.cl,
+Proyecto de Título II,AUD10V01,6,"Young Araya, Mariana Inés","Poblete Sánchez, Camila Ignacia",19926921-6,camila.poblete.s@ug.uchile.cl,
 Proyecto de Título I,AUD9V001,1,"Young Araya, Mariana Inés","Salas Valenzuela, Valentina María Inés",20431130-7,vocaloid02rinlenk@gmail.com,x
 Proyecto de Título I,AUD9V001,12,"Young Araya, Mariana Inés","Sánchez Arenas, Fabiola Andrea",20238327-0,fabiola.sanchez.a@ug.uchile.cl,
-Proyecto de Título II,AUD10V01,6,"Young Araya, Mariana Inés","Arancibia Pérez, Paz Belén",20726548-9,paz.arancibia@ug.uchile.cl,
-Proyecto de Título II,AUD10V01,6,"Young Araya, Mariana Inés","Poblete Sánchez, Camila Ignacia",19926921-6,camila.poblete.s@ug.uchile.cl,
 ,,,"Zorzano Betancourt, Osvaldo Miguel",-,,,
