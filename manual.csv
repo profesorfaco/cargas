@@ -1,12 +1,10 @@
 nombre_curso,codigo_curso,seccion,profe,estudiante,rut,mail
 Proyecto de Título II,AUD10I01,1,* Sin Profesor(a) Guía,"Albornoz Durán, Katalina Lucía",20243330-8,katalina.alb@gmail.com
-Proyecto de Título (Malla vieja),DG801,1,* Sin Profesor(a) Guía,"Fuentes Jorquera, Ignacio Felipe",18461491-K,ignacio_fuentes@hotmail.cl
 Proyecto de Título (Malla vieja),DG801,1,* Sin Profesor(a) Guía,"Godoy Salgado, Alexander Erick",19003825-4,aegs17@gmail.com
 Proyecto de Título II,AUD10V01,1,* Sin Profesor(a) Guía,"Gonzalez Silva, Rahyza Constanza",19818234-6,rahyza.gonzalez@gmail.com
 Proyecto de Título (Malla vieja),DI801,1,* Sin Profesor(a) Guía,"Jorquera Morales, Dariana Micaela Alejandra",19824686-7,dary2008@outlook.com
 Proyecto de Título I,AUD9V001,1,* Sin Profesor(a) Guía,"Lincopán Ramos, Fabián Martín",20448972-6,fabian.lincopan@ug.uchile.cl
 Proyecto de Título II,AUD10I01,1,* Sin Profesor(a) Guía,"Martin Parada, Manuel",19637479-5,mrtn.prd.mnl@gmail.com
-Proyecto de Título II,AUD10V01,1,* Sin Profesor(a) Guía,"Martínez Pardo, Vicente Joaquín",19961402-9,vishort186@gmail.com
 Proyecto de Título II,AUD10I01,1,* Sin Profesor(a) Guía,"Martinich Ercilla, Sofía Esperanza",20214515-9,sofia.martinich@ug.uchile.cl
 Proyecto de Título II,AUD10V01,1,* Sin Profesor(a) Guía,"Oliveros Berríos, Denisse Elizabeth",20401913-4,denisse.oliveros@ug.uchile.cl
 Proyecto de Título (Malla vieja),DI801,1,* Taller Extraordinario de Titulación (TET),"Arangua Jiménez, Vicente Elías",19289534-0,vicentearangua@gmail.com
@@ -59,6 +57,7 @@ Proyecto de Título II,AUD10I01,14,"Donoso Cisternas, Sergio Felipe","Salazar Mo
 Proyecto de Título II,AUD10I01,14,"Donoso Cisternas, Sergio Felipe","Salinas Hernandez, Mauricio Leonardo",20342590-2,mauricio.salinas@ug.uchile.cl
 Proyecto de Título I,AUD9I001,10,"Donoso Cisternas, Sergio Felipe","San Martín Matamala, Carla Fernanda",20230672-1,carla.sanmartin.m@ug.uchile.cl
 Proyecto de Título II,AUD10I01,14,"Donoso Cisternas, Sergio Felipe","Silva Herrera, Michelle Alexandra",19744811-3,michelle161997@live.cl
+Proyecto de Título (Malla vieja),DG801,1,"Dueñas Santander, Rodrigo Alejandro","Fuentes Jorquera, Ignacio Felipe",18461491-K,ignacio_fuentes@hotmail.cl
 Proyecto de Título I,AUD9V001,5,"Dueñas Santander, Rodrigo Alejandro","Garib González, Gabriela Paz",20662652-6,gabygarib@yahoo.es
 Proyecto de Título I,AUD9V001,5,"Dueñas Santander, Rodrigo Alejandro","Ponce Zúñiga, Bárbara Nicol",19030742-5,barbara.ponce@ug.uchile.cl
 Proyecto de Título I,AUD9V001,5,"Dueñas Santander, Rodrigo Alejandro","Sánchez Román, Matías Jan",19957612-7,matias.sanchez.r@ug.uchile.cl
@@ -161,6 +160,7 @@ Proyecto de Título II,AUD10V01,1,"Stange Marcus, Hans Eduardo","Torrejón Gambo
 Proyecto de Título I,AUD9I001,9,"Tapia Reyes, Mauricio Nicolás","Grass Bañados, José Santiago",20297154-7,jose.grass.b@gmail.com
 Proyecto de Título II,AUD10I01,2,"Tapia Reyes, Mauricio Nicolás","Muñoz Espinosa, Francisco Ignacio",19037163-8,francisco.muespinosa@gmail.com
 Proyecto de Título (Malla vieja),DI801,6,"Tapia Reyes, Mauricio Nicolás","Saavedra Rojas, Javiera Katalina",19696098-8,jk.sr1997@gmail.com
+Proyecto de Título II,AUD10V01,1,"Vico Sánchez, Mauricio Esteban","Martínez Pardo, Vicente Joaquín",19961402-9,vishort186@gmail.com
 Proyecto de Título I,AUD9V001,11,"Vico Sánchez, Mauricio Esteban","Ortiz Rubio, Araceli Marcela",19951520-9,araceli911@gmail.com
 Proyecto de Título I,AUD9V001,1,"Wechsler Pizarro, Andrea","Cabrera López, Francisco Daniel",19523067-6,fco.4.cabrera@gmail.com
 Proyecto de Título II,AUD10I01,1,"Wechsler Pizarro, Andrea","Castro Rojas, Karen Valentina",20033271-7,karen.v.castrojas@gmail.com
