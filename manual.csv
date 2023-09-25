@@ -1,7 +1,6 @@
 nombre_curso,codigo_curso,seccion,profe,estudiante,rut,mail
 Proyecto de Título (Malla vieja),DG801,1,* Sin Profesor(a) Guía,"Godoy Salgado, Alexander Erick",19003825-4,aegs17@gmail.com
 Proyecto de Título I,AUD9V001,1,* Sin Profesor(a) Guía,"Lincopán Ramos, Fabián Martín",20448972-6,fabian.lincopan@ug.uchile.cl
-Proyecto de Título II,AUD10I01,1,* Sin Profesor(a) Guía,"Martin Parada, Manuel",19637479-5,mrtn.prd.mnl@gmail.com
 Proyecto de Título (Malla vieja),DI801,1,* Taller Extraordinario de Titulación (TET),"Arangua Jiménez, Vicente Elías",19289534-0,vicentearangua@gmail.com
 Proyecto de Título (Malla vieja),DI801,1,* Taller Extraordinario de Titulación (TET),"Aviles Riquelme, Guillermo Santiago",17509785-6,guillermo.aviles@ug.uchile.cl
 Proyecto de Título II,AUD10V01,1,* Taller Extraordinario de Titulación (TET),"Badilla Gallardo, Jazmín Fernanda",19317209-1,jazmin.badilla@ug.uchile.cl
@@ -38,6 +37,7 @@ Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Guerrer
 Proyecto de Título (Malla vieja),DI801,3,"Domínguez González, Pablo Ernesto","Higuera Cabello, Felipe Ignacio",18338216-0,felipehiguera@outlook.cl
 Proyecto de Título (Malla vieja),DI801,1,"Domínguez González, Pablo Ernesto","Jorquera Morales, Dariana Micaela Alejandra",19824686-7,dary2008@outlook.com
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Labbe Aguilar, Valentina Lareen",18538584-1,valentina.labbe@ug.uchile.cl
+Proyecto de Título II,AUD10I01,1,"Domínguez González, Pablo Ernesto","Martin Parada, Manuel",19637479-5,mrtn.prd.mnl@gmail.com
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Muñoz Sepulveda, Antonia Carolina",19690051-9,antonia.munoz@ug.uchile.cl
 Proyecto de Título (Malla vieja),DI801,3,"Domínguez González, Pablo Ernesto","Osorio Morales, Camila Angélica Francisca",19588773-K,camila.osorio.m@ug.uchile.cl
 Proyecto de Título II,AUD10I01,8,"Domínguez González, Pablo Ernesto","Pizarro Pizarro, Fernanda Antonia",19979680-1,ferpizarrop@gmail.com
